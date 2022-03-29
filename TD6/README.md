@@ -34,12 +34,14 @@ HTTP GET request to the following URLs will always result in `42` as response:
   - [`http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Mul?a=21&b=2`],
   - [`http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Div?a=84&b=2`].
 
+In order to ease testing, these links are clickable.
 
 ## Launching the projects
 
 When all the projects are launched, a SOAP client terminal window is opened. It
-displays `42`, which is the result of `41 + 1`. The SOAP and REST servers are
-started in background.
+displays `42` four times in the console, which correspond to the evaluation of
+`41 + 1`, `43 - 1`, `21 * 2` and `84 / 2`. The SOAP and REST servers are started
+in background.
 
 [`http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Add?a=41&b=1`]: http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Add?a=41&b=1
 [`http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Sub?a=43&b=1`]: http://localhost:8733/Design_Time_Addresses/MathsLibraryRest/MathOperations/Sub?a=43&b=1
